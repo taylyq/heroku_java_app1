@@ -3,7 +3,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Spring MVC and Hibernate Template</title>
+  <title>taylyq</title>
 
   <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -78,13 +78,9 @@
 
 <!-- *****end nav bar***8 -->
 
-<h1>hello world!</h1>
-<button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+<button type="button" class="btn btn-primary btn-lg btn-block"></button>
 
-<a class="btn btn-default" href="#" role="button">Link</a>
-<button class="btn btn-default" type="submit">Button</button>
-<input class="btn btn-default" type="button" value="Input">
-<input class="btn btn-default" type="submit" value="Submit">
+
 
 <!-- *************images table *****************-->
 
@@ -154,58 +150,55 @@
                         </a>
 	                    </span>
 	</td>
+	<td>
+      <div class="modal hide" id="5">
+        <div class="modal-header">
+          <a class="close" data-dismiss="modal"><i class="icon-remove"></i></a>
+
+          
+        </div>
+        <div class="modal-body">
+          <img src='1.jpg'
+               alt="Add SSH Key to Heroku"/>
+        </div>
+      </div>
+	                    <span class="screenshot">
+	                      <a href="#5" data-toggle="modal">
+                          <img
+                              src='1.jpg'
+                              alt="Add SSH Key to Heroku" width="100"/>
+                          <i class="icon-zoom-in"></i>
+                        </a>
+	                    </span>
+	</td>
     </tr>
+    <tr>
+    <td>
+      <div class="modal hide" id="4">
+        <div class="modal-header">
+          <a class="close" data-dismiss="modal"><i class="icon-remove"></i></a>
+
+          
+        </div>
+        <div class="modal-body">
+          <img src='1.jpg'
+               alt="Add SSH Key to Heroku"/>
+        </div>
+      </div>
+	                    <span class="screenshot">
+	                      <a href="#4" data-toggle="modal">
+                          <img
+                              src='1.jpg'
+                              alt="Add SSH Key to Heroku" width="100"/>
+                          
+                        </a>
+	                    </span>
+	</td>
+	</tr>
 	</table>
-  <h2>Step 2. Importing this App</h2>
-  <ol>
-    <li>Open <code>File</code><i class="icon-chevron-right"></i><code>Import</code> and expand the Heroku section
-      <div class="modal hide" id="importAppSelect">
-        <div class="modal-header">
-          <a class="close" data-dismiss="modal"><i class="icon-remove"></i></a>
-
-          <h3>Import App</h3>
-        </div>
-        <div class="modal-body">
-          <img src='https://template-app-instructions-screenshots.s3.amazonaws.com/eclipse/import_app_1.png'
-               alt="Import App"/>
-        </div>
-      </div>
-	                    <span class="screenshot">
-	                      <a href="#importAppSelect" data-toggle="modal">
-                          <img
-                              src='https://template-app-instructions-screenshots.s3.amazonaws.com/eclipse/import_app_1.png'
-                              alt="Import App" width="100"/>
-                          <i class="icon-zoom-in"></i>
-                        </a>
-	                    </span>
-
-    </li>
-    <li>Select <code>Existing Heroku Application</code><i class="icon-chevron-right"></i><code>Next</code></li>
-    <li>Select <code>
-      <script>document.write(appname());</script>
-    </code> and click <code>Next</code>
-
-      <div class="modal hide" id="importApp2">
-        <div class="modal-header">
-          <a class="close" data-dismiss="modal"><i class="icon-remove"></i></a>
-
-          <h3>Select App to import</h3>
-        </div>
-        <div class="modal-body">
-          <img src='https://template-app-instructions-screenshots.s3.amazonaws.com/eclipse/import_app_2.png'
-               alt="Create app from template"/>
-        </div>
-      </div>
-	                    <span class="screenshot">
-	                      <a href="#importApp2" data-toggle="modal">
-                          <img
-                              src='https://template-app-instructions-screenshots.s3.amazonaws.com/eclipse/import_app_2.png'
-                              alt="Create app from template" width="100"/>
-                          <i class="icon-zoom-in"></i>
-                        </a>
-	                    </span>
-    </li>
-	                    
+	<br/>
+	<input class="btn btn-default" type="submit" value="Submit">
+	               
 <script src="//code.jquery.com/jquery-1.9.1.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/2.3.2/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/prettify/r224/prettify.min.js"></script>
